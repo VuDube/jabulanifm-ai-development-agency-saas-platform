@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, CheckCircle2, Zap, Brain, Rocket } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Zap, Brain, Rocket, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Section } from '@/components/ui/Section';
@@ -111,7 +111,7 @@ export function HomePage() {
             </div>
           </div>
           <div className="space-y-6">
-            {TESTIMONIALS.map((t, i) => (
+            {(TESTIMONIALS || []).map((t, i) => (
               <Card key={i} className="bg-accent/30 border-none">
                 <CardContent className="p-6">
                   <p className="italic text-lg mb-4">"{t.text}"</p>
