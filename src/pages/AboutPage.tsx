@@ -1,6 +1,7 @@
 import React from 'react';
 import { Section } from '@/components/ui/Section';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { ShieldCheck, Zap, Heart, CloudLightning, Scale, Users } from 'lucide-react';
 export function AboutPage() {
   return (
@@ -27,7 +28,7 @@ export function AboutPage() {
               </p>
               <p>
                 We saw world-class facilities managers defeated by load-shedding schedules and manual POPIA audits.
-                Our mission is to bring high-performance, resilient AI tools that handle the "heavy thinking" so 
+                Our mission is to bring high-performance, resilient AI tools that handle the "heavy thinking" so
                 local teams can focus on growth and service excellence.
               </p>
               <p className="font-bold text-orange-600">
@@ -80,7 +81,7 @@ export function AboutPage() {
             {
               icon: Users,
               title: 'Team Experience',
-              text: '15+ years of combined experience in high-stakes legal, FM, and software environments. We’ve been where you are.'
+              text: '15+ years of combined experience in high-stakes legal, FM, and software environments. We��ve been where you are.'
             }
           ].map((item, i) => (
             <Card key={i} className="border-none shadow-soft hover:shadow-glow transition-all">
@@ -97,7 +98,7 @@ export function AboutPage() {
         <div className="max-w-3xl mx-auto space-y-8">
           <h2 className="text-4xl font-display font-bold">Join the Agency</h2>
           <p className="text-muted-foreground text-xl">
-            We're always looking for talented AI developers and FM consultants who want to 
+            We're always looking for talented AI developers and FM consultants who want to
             build the future of South African business.
           </p>
           <Button size="lg" variant="link" className="text-orange-500 text-xl font-bold hover:text-orange-600 underline">
