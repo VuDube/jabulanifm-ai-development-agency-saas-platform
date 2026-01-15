@@ -17,6 +17,7 @@ import { HomePage } from '@/pages/HomePage';
 import { SolutionsPage } from '@/pages/SolutionsPage';
 import { PricingPage } from '@/pages/PricingPage';
 import { AboutPage } from '@/pages/AboutPage';
+import { CaseStudiesPage } from '@/pages/CaseStudiesPage';
 import { ContactPage } from '@/pages/ContactPage';
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <PageWrapper><AboutPage /></PageWrapper>,
+    errorElement: <RouteErrorBoundary />,
+  },
+  {
+    path: "/case-studies",
+    element: <PageWrapper><CaseStudiesPage /></PageWrapper>,
     errorElement: <RouteErrorBoundary />,
   },
   {
