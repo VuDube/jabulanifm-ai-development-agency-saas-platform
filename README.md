@@ -1,6 +1,6 @@
 # JabulaniFM Platform
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/VuDube/jabulanifm-ai-development-agency-saas-platform)
 
 A modern full-stack web application built with React, TypeScript, Tailwind CSS, and Cloudflare Workers. This template provides a production-ready setup for building scalable apps with a beautiful UI powered by shadcn/ui components, API routes via Hono, and seamless Cloudflare deployment.
 
@@ -117,7 +117,7 @@ Configure Cloudflare bindings in `wrangler.jsonc` if needed (KV, D1, R2, etc.). 
 
 For one-click deployment:
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/VuDube/jabulanifm-ai-development-agency-saas-platform)
 
 **Note**: Ensure your `wrangler.jsonc` has the correct project name and bindings.
 
